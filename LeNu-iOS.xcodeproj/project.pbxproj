@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79426EAF18E1F807000A2FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79426EAE18E1F807000A2FBF /* Foundation.framework */; };
+		79426EB118E1F807000A2FBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79426EB018E1F807000A2FBF /* CoreGraphics.framework */; };
+		79426EB318E1F807000A2FBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79426EB218E1F807000A2FBF /* UIKit.framework */; };
+		79426EB918E1F807000A2FBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79426EB718E1F807000A2FBF /* InfoPlist.strings */; };
+		79426EBB18E1F807000A2FBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79426EBA18E1F807000A2FBF /* main.m */; };
+		79426EBF18E1F807000A2FBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79426EBE18E1F807000A2FBF /* AppDelegate.m */; };
+		79426EC218E1F807000A2FBF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79426EC018E1F807000A2FBF /* Main_iPhone.storyboard */; };
+		79426EC518E1F807000A2FBF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79426EC318E1F807000A2FBF /* Main_iPad.storyboard */; };
+		79426EC818E1F807000A2FBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79426EC718E1F807000A2FBF /* ViewController.m */; };
+		79426ECA18E1F807000A2FBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79426EC918E1F807000A2FBF /* Images.xcassets */; };
+		79426ED118E1F807000A2FBF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79426ED018E1F807000A2FBF /* XCTest.framework */; };
+		79426ED218E1F807000A2FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79426EAE18E1F807000A2FBF /* Foundation.framework */; };
+		79426ED318E1F807000A2FBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79426EB218E1F807000A2FBF /* UIKit.framework */; };
+		79426EDB18E1F807000A2FBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79426ED918E1F807000A2FBF /* InfoPlist.strings */; };
+		79426EDD18E1F807000A2FBF /* LeNu_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79426EDC18E1F807000A2FBF /* LeNu_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79426ED418E1F807000A2FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79426EA318E1F807000A2FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79426EAA18E1F807000A2FBF;
+			remoteInfo = "LeNu-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79426EAB18E1F807000A2FBF /* LeNu-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeNu-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79426EAE18E1F807000A2FBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79426EB018E1F807000A2FBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79426EB218E1F807000A2FBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79426EB618E1F807000A2FBF /* LeNu-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeNu-iOS-Info.plist"; sourceTree = "<group>"; };
+		79426EB818E1F807000A2FBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79426EBA18E1F807000A2FBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79426EBC18E1F807000A2FBF /* LeNu-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeNu-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		79426EBD18E1F807000A2FBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79426EBE18E1F807000A2FBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79426EC118E1F807000A2FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		79426EC418E1F807000A2FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		79426EC618E1F807000A2FBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79426EC718E1F807000A2FBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79426EC918E1F807000A2FBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79426ECF18E1F807000A2FBF /* LeNu-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeNu-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79426ED018E1F807000A2FBF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		79426ED818E1F807000A2FBF /* LeNu-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeNu-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		79426EDA18E1F807000A2FBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79426EDC18E1F807000A2FBF /* LeNu_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeNu_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79426EA818E1F807000A2FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79426EB118E1F807000A2FBF /* CoreGraphics.framework in Frameworks */,
+				79426EB318E1F807000A2FBF /* UIKit.framework in Frameworks */,
+				79426EAF18E1F807000A2FBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79426ECC18E1F807000A2FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79426ED118E1F807000A2FBF /* XCTest.framework in Frameworks */,
+				79426ED318E1F807000A2FBF /* UIKit.framework in Frameworks */,
+				79426ED218E1F807000A2FBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79426EA218E1F807000A2FBF = {
+			isa = PBXGroup;
+			children = (
+				79426EB418E1F807000A2FBF /* LeNu-iOS */,
+				79426ED618E1F807000A2FBF /* LeNu-iOSTests */,
+				79426EAD18E1F807000A2FBF /* Frameworks */,
+				79426EAC18E1F807000A2FBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79426EAC18E1F807000A2FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79426EAB18E1F807000A2FBF /* LeNu-iOS.app */,
+				79426ECF18E1F807000A2FBF /* LeNu-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79426EAD18E1F807000A2FBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79426EAE18E1F807000A2FBF /* Foundation.framework */,
+				79426EB018E1F807000A2FBF /* CoreGraphics.framework */,
+				79426EB218E1F807000A2FBF /* UIKit.framework */,
+				79426ED018E1F807000A2FBF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79426EB418E1F807000A2FBF /* LeNu-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				79426EBD18E1F807000A2FBF /* AppDelegate.h */,
+				79426EBE18E1F807000A2FBF /* AppDelegate.m */,
+				79426EC018E1F807000A2FBF /* Main_iPhone.storyboard */,
+				79426EC318E1F807000A2FBF /* Main_iPad.storyboard */,
+				79426EC618E1F807000A2FBF /* ViewController.h */,
+				79426EC718E1F807000A2FBF /* ViewController.m */,
+				79426EC918E1F807000A2FBF /* Images.xcassets */,
+				79426EB518E1F807000A2FBF /* Supporting Files */,
+			);
+			path = "LeNu-iOS";
+			sourceTree = "<group>";
+		};
+		79426EB518E1F807000A2FBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79426EB618E1F807000A2FBF /* LeNu-iOS-Info.plist */,
+				79426EB718E1F807000A2FBF /* InfoPlist.strings */,
+				79426EBA18E1F807000A2FBF /* main.m */,
+				79426EBC18E1F807000A2FBF /* LeNu-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79426ED618E1F807000A2FBF /* LeNu-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				79426EDC18E1F807000A2FBF /* LeNu_iOSTests.m */,
+				79426ED718E1F807000A2FBF /* Supporting Files */,
+			);
+			path = "LeNu-iOSTests";
+			sourceTree = "<group>";
+		};
+		79426ED718E1F807000A2FBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79426ED818E1F807000A2FBF /* LeNu-iOSTests-Info.plist */,
+				79426ED918E1F807000A2FBF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79426EAA18E1F807000A2FBF /* LeNu-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79426EE018E1F807000A2FBF /* Build configuration list for PBXNativeTarget "LeNu-iOS" */;
+			buildPhases = (
+				79426EA718E1F807000A2FBF /* Sources */,
+				79426EA818E1F807000A2FBF /* Frameworks */,
+				79426EA918E1F807000A2FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeNu-iOS";
+			productName = "LeNu-iOS";
+			productReference = 79426EAB18E1F807000A2FBF /* LeNu-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79426ECE18E1F807000A2FBF /* LeNu-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79426EE318E1F807000A2FBF /* Build configuration list for PBXNativeTarget "LeNu-iOSTests" */;
+			buildPhases = (
+				79426ECB18E1F807000A2FBF /* Sources */,
+				79426ECC18E1F807000A2FBF /* Frameworks */,
+				79426ECD18E1F807000A2FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79426ED518E1F807000A2FBF /* PBXTargetDependency */,
+			);
+			name = "LeNu-iOSTests";
+			productName = "LeNu-iOSTests";
+			productReference = 79426ECF18E1F807000A2FBF /* LeNu-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79426EA318E1F807000A2FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LeNu;
+				TargetAttributes = {
+					79426ECE18E1F807000A2FBF = {
+						TestTargetID = 79426EAA18E1F807000A2FBF;
+					};
+				};
+			};
+			buildConfigurationList = 79426EA618E1F807000A2FBF /* Build configuration list for PBXProject "LeNu-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79426EA218E1F807000A2FBF;
+			productRefGroup = 79426EAC18E1F807000A2FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79426EAA18E1F807000A2FBF /* LeNu-iOS */,
+				79426ECE18E1F807000A2FBF /* LeNu-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79426EA918E1F807000A2FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79426EC518E1F807000A2FBF /* Main_iPad.storyboard in Resources */,
+				79426ECA18E1F807000A2FBF /* Images.xcassets in Resources */,
+				79426EC218E1F807000A2FBF /* Main_iPhone.storyboard in Resources */,
+				79426EB918E1F807000A2FBF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79426ECD18E1F807000A2FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79426EDB18E1F807000A2FBF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79426EA718E1F807000A2FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79426EC818E1F807000A2FBF /* ViewController.m in Sources */,
+				79426EBF18E1F807000A2FBF /* AppDelegate.m in Sources */,
+				79426EBB18E1F807000A2FBF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79426ECB18E1F807000A2FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79426EDD18E1F807000A2FBF /* LeNu_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79426ED518E1F807000A2FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79426EAA18E1F807000A2FBF /* LeNu-iOS */;
+			targetProxy = 79426ED418E1F807000A2FBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79426EB718E1F807000A2FBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79426EB818E1F807000A2FBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79426EC018E1F807000A2FBF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79426EC118E1F807000A2FBF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		79426EC318E1F807000A2FBF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79426EC418E1F807000A2FBF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		79426ED918E1F807000A2FBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79426EDA18E1F807000A2FBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79426EDE18E1F807000A2FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79426EDF18E1F807000A2FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79426EE118E1F807000A2FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeNu-iOS/LeNu-iOS-Prefix.pch";
+				INFOPLIST_FILE = "LeNu-iOS/LeNu-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79426EE218E1F807000A2FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeNu-iOS/LeNu-iOS-Prefix.pch";
+				INFOPLIST_FILE = "LeNu-iOS/LeNu-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79426EE418E1F807000A2FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeNu-iOS.app/LeNu-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeNu-iOS/LeNu-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LeNu-iOSTests/LeNu-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		79426EE518E1F807000A2FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeNu-iOS.app/LeNu-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeNu-iOS/LeNu-iOS-Prefix.pch";
+				INFOPLIST_FILE = "LeNu-iOSTests/LeNu-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79426EA618E1F807000A2FBF /* Build configuration list for PBXProject "LeNu-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79426EDE18E1F807000A2FBF /* Debug */,
+				79426EDF18E1F807000A2FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79426EE018E1F807000A2FBF /* Build configuration list for PBXNativeTarget "LeNu-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79426EE118E1F807000A2FBF /* Debug */,
+				79426EE218E1F807000A2FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79426EE318E1F807000A2FBF /* Build configuration list for PBXNativeTarget "LeNu-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79426EE418E1F807000A2FBF /* Debug */,
+				79426EE518E1F807000A2FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79426EA318E1F807000A2FBF /* Project object */;
+}
