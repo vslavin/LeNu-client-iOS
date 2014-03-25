@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 LeNu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ViewController.h"
 
 @interface ViewController : UIViewController
+
+- (IBAction)clickTheButton:(id)sender;
 
 @end
